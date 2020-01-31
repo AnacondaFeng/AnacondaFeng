@@ -1,0 +1,1 @@
+from .pay.wechat_pay.tools import pay
