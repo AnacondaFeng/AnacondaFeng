@@ -22,11 +22,11 @@ class PetCat(object):
             return 0
         self.__age = value
 
-    # 描述符
+    # 描述符 变成类的属性了
     @property
     def show_info(self):
 
-        return '我叫{0}，今年{1}岁'.format(self.name, self.age)\
+        return '我叫{0}，今年{1}岁'.format(self.name, self.age)
 
     # 类的描述
     def __str__(self):
